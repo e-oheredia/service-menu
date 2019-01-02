@@ -16,6 +16,9 @@ INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (3, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (4, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (5, 1)
 
+-- Proveedor
+INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (3, 2)
+
 
 
 
