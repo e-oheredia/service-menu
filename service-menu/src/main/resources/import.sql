@@ -12,9 +12,9 @@ INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (2, N'/seleccion-prove
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (3, N'/visualizar-pedidos-georeferencia', 3)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (4, N'/confirmar-geo', 4)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (5, N'/recotizacion-campana', 5)
-INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (3, N'/confirmacion-cotizacion', 6)
-INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (4, N'/verificar-conformidad', 7)
-INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (5, N'/solicitud-impresion', 8)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (6, N'/confirmacion-cotizacion', 6)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (7, N'/verificar-conformidad', 7)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (8, N'/solicitud-impresion', 8)
 
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (1, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (2, 1)
