@@ -13,6 +13,9 @@ INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-apert
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Gestionar Muestra de Impresión')
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Subir Muestra')
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Imprimir Campaña')
+INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Gestión de Distribución')
+INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Recoger Campaña')
+INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Verificar Guía')
 
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (1, 2)
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (3, 4)
@@ -24,6 +27,8 @@ INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (8, 11)
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (12, 13)
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (12, 14)
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (12, 15)
+INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (16, 17)
+INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (16, 18)
 
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (2, N'/ingresar-campana', 1)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (4, N'/seleccion-proveedor', 2)
@@ -35,6 +40,8 @@ INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (11, N'/verificar-conf
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (13, N'/solicitud-muestra', 8)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (14, N'/subir-muestra', 9)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (15, N'/impresion-campana', 10)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (17, N'/recojo-campana', 9)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (18, N'/verificar-guia', 10)
 
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (2, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (4, 1)
@@ -46,12 +53,8 @@ INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (11, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (13, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (14, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (15, 1)
+INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (17, 1)
+INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (18, 1)
 
 -- Proveedor
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (6, 2)
-
-
-
-
-
-
