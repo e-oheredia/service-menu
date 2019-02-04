@@ -19,6 +19,8 @@ INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-apert
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Gestión de Distribución')
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Recepcionar Operativas')
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Cargar Resultados')
+INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Reportes')
+INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Reporte UTD')
 
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (1, 2)
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (3, 4)
@@ -34,6 +36,7 @@ INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (16, 17)
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (16, 18)
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (19, 20)
 INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (19, 21)
+INSERT INTO jerarquia_menu(menu_padre_id, menu_hijo_id) values (22, 23)
 
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (2, N'/ingresar-campana', 1)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (4, N'/seleccion-proveedor', 2)
@@ -49,6 +52,7 @@ INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (17, N'/recojo-campana
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (18, N'/verificar-guia', 12)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (20, N'/recepcion-operativa', 13)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (21, N'/cargar-resultados', 14)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (23, N'/reporte-utd', 15)
 
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (2, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (4, 1)
@@ -64,6 +68,7 @@ INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (17, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (18, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (20, 1)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (21, 1)
+INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (23, 1)
 
 -- Proveedor
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (6, 2)
