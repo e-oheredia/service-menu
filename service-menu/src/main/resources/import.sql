@@ -1,4 +1,5 @@
 
+
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Generar Envios')
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Masivo')
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Individual')
@@ -99,11 +100,3 @@ INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (28, 14)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (29, 14)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (15, 14)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (17, 14)
-
-
-
-
-
-
-
-
