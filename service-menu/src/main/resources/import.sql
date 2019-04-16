@@ -40,6 +40,7 @@ INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-apert
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Tipo de Servicio')
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Ambitos')
 INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Clasificacion de Documentos')
+INSERT [dbo].[menu] ([activo], [clase_icono], [nombre]) VALUES (1, N'oi oi-aperture', N'Bloque')
 
 
 SET IDENTITY_INSERT [dbo].[menu] OFF
@@ -75,6 +76,7 @@ INSERT [dbo].[jerarquia_menu] ([menu_padre_id], [menu_hijo_id]) VALUES (31, 37)
 INSERT [dbo].[jerarquia_menu] ([menu_padre_id], [menu_hijo_id]) VALUES (31, 38)
 INSERT [dbo].[jerarquia_menu] ([menu_padre_id], [menu_hijo_id]) VALUES (31, 39)
 INSERT [dbo].[jerarquia_menu] ([menu_padre_id], [menu_hijo_id]) VALUES (31, 40)
+INSERT [dbo].[jerarquia_menu] ([menu_padre_id], [menu_hijo_id]) VALUES (1, 41)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (2, N'/generar-documentos/masivo', 2)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (3, N'/generar-documentos/individual', 1)
 --INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (5, N'/guias-enviadas', 2)
@@ -107,6 +109,7 @@ INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (37, N'/mantenimiento/
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (38, N'/mantenimiento/tipo-servicio', 5)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (39, N'/mantenimiento/subambito', 6)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (40, N'/mantenimiento/clasificacion', 7)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (41, N'/generar-documentos/bloque', 3)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (2, 12)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (3, 12)
 --INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (5, 13)
@@ -143,3 +146,4 @@ INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (37, 14)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (38, 14)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (39, 14)
 INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (40, 14)
+INSERT [dbo].[opcion_permiso] ([opcion_id], [permiso_id]) VALUES (41, 16)
