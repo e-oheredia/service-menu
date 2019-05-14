@@ -115,7 +115,7 @@ INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (35, N'/procesar-guias
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (36, N'/mantenimiento/tipo-seguridad', 3)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (37, N'/mantenimiento/producto', 4)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (38, N'/mantenimiento/tipo-servicio', 5)
-INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (39, N'/mantenimiento/subambito', 6)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (39, N'/mantenimiento/ambito', 6)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (40, N'/mantenimiento/clasificacion', 7)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (41, N'/generar-documentos/bloque', 3)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (42, N'/guiasbloque-creadas', 3)
