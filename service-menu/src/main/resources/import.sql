@@ -105,7 +105,7 @@ INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (17, N'/documentos-cus
 --INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (20, N'/recepcionar-documentos', 2)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (22, N'/reporte-volumen', 1)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (23, N'/reporte-eficacia', 2)
-INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (24, N'/reporte-distribucion-mes-eficiencia', 3)
+INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (24, N'/reporte-eficiencia', 3)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (25, N'/reporte-devolucion-cargo', 4)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (26, N'/reporte-cargos', 5)
 INSERT [dbo].[opcion] ([menu_id], [link], [orden]) VALUES (27, N'/reporte-indicador-volumen', 6)
