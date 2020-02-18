@@ -7,7 +7,7 @@
 	<groupId>com.exact</groupId>
 	<artifactId>service-menu</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>service-menu</name>
 	<description>Proyecto para el manejo de menu</description>
